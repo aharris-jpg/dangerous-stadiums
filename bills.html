@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Highmark Stadium Render</title>
+<title>Buffalo Bills Stadium</title>
 
 <style>
 :root {
@@ -12,6 +12,7 @@
   --card: #ffffff;
   --navy: #0f2747;
   --red: #c9272e;
+  --gold: #d6ab2f;
   --line: #dbe3ee;
   --text: #12233f;
   --muted: #6c7a8f;
@@ -59,11 +60,25 @@ body {
   display: block;
 }
 
+/* Optional score badge */
+.score-badge {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  background: var(--gold);
+  color: #12233f;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
 .caption {
   padding: 14px 18px;
   font-size: 13px;
   color: var(--muted);
   border-top: 1px solid var(--line);
+  line-height: 1.4;
 }
 
 .caption strong {
@@ -78,16 +93,21 @@ body {
   <div class="card">
 
     <div class="header">
-      <h2 class="title">Highmark Stadium — Buffalo Bills</h2>
+      <h2 class="title">Buffalo Bills — Highmark Stadium</h2>
     </div>
 
     <div class="image-wrap">
-      <img src="https://www.billsstadiumexperience.com/assets/Image%201.87eece6b.jpg" alt="Highmark Stadium render">
+      <img 
+        src="https://static.wixstatic.com/media/d50ee7_8fd5a37c775f404ebc08af480c42cae1~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_85,usm_0.66_1.00_0.01/d50ee7_8fd5a37c775f404ebc08af480c42cae1~mv2.jpg" 
+        alt="Highmark Stadium Buffalo Bills"
+      >
+
+      <div class="score-badge">#1 NFL • 93.31</div>
     </div>
 
     <div class="caption">
-      <strong>Source:</strong> Buffalo Bills Stadium Experience.<br>
-      Rendering of the proposed Highmark Stadium redevelopment project.
+      <strong>Source:</strong> Buffalo Bills / stadium media.<br>
+      Highmark Stadium ranked as the most dangerous venue for visiting teams in Canada Sports Betting’s 2026 index, combining a perfect home win rate with near-capacity crowds throughout the 2024 season.
     </div>
 
   </div>
