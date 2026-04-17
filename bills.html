@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Highmark Stadium Render</title>
+
+<style>
+:root {
+  --bg: #eef2f7;
+  --card: #ffffff;
+  --navy: #0f2747;
+  --red: #c9272e;
+  --line: #dbe3ee;
+  --text: #12233f;
+  --muted: #6c7a8f;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: var(--bg);
+  font-family: Arial, sans-serif;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(10, 30, 60, 0.12);
+}
+
+.header {
+  padding: 16px 18px;
+  background: linear-gradient(90deg, var(--navy), var(--red));
+  color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.image-wrap {
+  position: relative;
+  background: #000;
+}
+
+.image-wrap img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  padding: 14px 18px;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}
+
+.caption strong {
+  color: var(--text);
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+  <div class="card">
+
+    <div class="header">
+      <h2 class="title">Highmark Stadium — Buffalo Bills</h2>
+    </div>
+
+    <div class="image-wrap">
+      <img src="https://www.billsstadiumexperience.com/assets/Image%201.87eece6b.jpg" alt="Highmark Stadium render">
+    </div>
+
+    <div class="caption">
+      <strong>Source:</strong> Buffalo Bills Stadium Experience.<br>
+      Rendering of the proposed Highmark Stadium redevelopment project.
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
