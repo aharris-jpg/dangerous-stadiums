@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Montreal Alouettes Stadium</title>
+
+<style>
+:root {
+  --bg: #eef2f7;
+  --card: #ffffff;
+  --navy: #0f2747;
+  --red: #c9272e;
+  --gold: #d6ab2f;
+  --line: #dbe3ee;
+  --text: #12233f;
+  --muted: #6c7a8f;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: var(--bg);
+  font-family: Arial, sans-serif;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(10, 30, 60, 0.12);
+}
+
+.header {
+  padding: 16px 18px;
+  background: linear-gradient(90deg, var(--navy), var(--red));
+  color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.image-wrap {
+  position: relative;
+  background: #000;
+}
+
+.image-wrap img {
+  width: 100%;
+  display: block;
+}
+
+/* Optional badge (nice editorial touch) */
+.badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(15,39,71,0.9);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 6px 10px;
+  border-radius: 8px;
+  letter-spacing: 0.05em;
+}
+
+/* Optional score badge */
+.score-badge {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  background: var(--gold);
+  color: #12233f;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.caption {
+  padding: 14px 18px;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  line-height: 1.4;
+}
+
+.caption strong {
+  color: var(--text);
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+  <div class="card">
+
+    <div class="header">
+      <h2 class="title">Montreal Alouettes — Percival Molson Memorial Stadium</h2>
+    </div>
+
+    <div class="image-wrap">
+      <div class="badge">CFL</div>
+
+      <img 
+        src="https://www.theglobeandmail.com/resizer/v2/IOG6L4N3UFBJZOOG3BLNTMPFBI?auth=6a46a7fe3dd33818dd93b5534eae427338186858cbec3e31393685a0785908a0&width=600&quality=80" 
+        alt="Percival Molson Memorial Stadium Montreal"
+      >
+
+      <div class="score-badge">#1 CFL • 75.45</div>
+    </div>
+
+    <div class="caption">
+      <strong>Source:</strong> The Globe and Mail.<br>
+      Percival Molson Memorial Stadium sits on Mount Royal and has been home to the Montreal Alouettes since 1998, creating one of the most compact and intense game-day environments in Canadian football.
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
